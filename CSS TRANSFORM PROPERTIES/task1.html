@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        font-size: 35px;
+      }
+      div {
+        border: 2px solid black;
+        padding: 50px 60px 30px 50px;
+        width: 15%;
+        height: 200px;
+        margin: 20px;
+        display: inline-block;
+        border-radius: 10px;
+        font-weight: 800;
+        text-align: center;
+        color: rgb(11, 11, 11);
+        background-color: aqua;
+        border: 4px ridge red;
+      }
+      #font {
+        text-align: center;
+        background-color: rgb(25, 180, 247);
+        color: rgb(241, 248, 245);
+        font-size: 50px;
+      }
+      #box1 {
+        box-shadow: 4px 4px 5px 3px black;
+      }
+      #box2 {
+        box-shadow: 4px 4px 1px 3px orange;
+      }
+      #box3 {
+        box-shadow: 4px 4px 1px 3px orangered;
+      }
+      #box4 {
+        box-shadow: 4px 4px 1px 3px green;
+      }
+      #box5 {
+        box-shadow: 4px 4px 1px 3px yellow;
+      }
+      #box6 {
+        box-shadow: 4px 4px 1px 3px blueviolet;
+      }
+      #box7 {
+        box-shadow: 4px 4px 1px 3px skyblue;
+      }
+      #box8 {
+        box-shadow: 4px 4px 1px 3px rgb(36, 231, 88);
+      }
+      #box9 {
+        box-shadow: 4px 4px 1px 3px goldenrod;
+      }
+      #box10 {
+        box-shadow: 4px 4px 1px 3px rgb(128, 0, 92);
+      }
+      #box11 {
+        box-shadow: 4px 4px 1px 3px gold;
+      }
+      #box12 {
+        box-shadow: 4px 4px 1px 3px maroon;
+      }
+      #box13 {
+        box-shadow: 4px 4px 1px 3px crimson;
+      }
+      #box14 {
+        box-shadow: 4px 4px 1px 3px coral;
+      }
+      #box15 {
+        box-shadow: 4px 4px 1px 3px chocolate;
+      }
+      #box16 {
+        box-shadow: 4px 4px 1px 3px cadetblue;
+      }
+      #box17 {
+        box-shadow: 4px 4px 1px 3px tan;
+      }
+      #box18 {
+        box-shadow: 4px 4px 1px 3px yellowgreen;
+      }
+      #box19 {
+        box-shadow: 4px 4px 1px 3px tomato;
+      }
+      #box20 {
+        box-shadow: 4px 4px 1px 3px teal;
+      }
+      #box1:hover {
+        font-family: serif;
+        font-size: 30px;
+        transform: translate(50px, 0px);
+      }
+      #box2:hover {
+        font-family: Arial;
+        font-size: 30px;
+        transform: translate(0px, 50px);
+      }
+      #box3:hover {
+        font-family: "Ga Maamli";
+        font-size: 30px;
+        transform: translate(50px, 50px);
+      }
+      #box4:hover {
+        font-family: "Lucida Sans";
+        font-size: 30px;
+        transform: translateX(50px);
+      }
+      #box5:hover {
+        font-family: cursive;
+        font-size: 30px;
+        transform: translateY(50px);
+      }
+      #box6:hover {
+        font-family: "Times New Roman";
+        font-size: 30px;
+        transform: scale(1.2);
+      }
+      #box7:hover {
+        font-family: "Playwrite IT Moderna";
+        font-size: 20px;
+        transform: scaleX(1.3);
+      }
+      #box8:hover {
+        font-family: monospace;
+        font-size: 30px;
+        transform: scaleY(1.5);
+      }
+      #box9:hover {
+        font-family: fantasy;
+        font-size: 30px;
+        transform: rotate(90deg);
+      }
+      #box10:hover {
+        font-family: Cambria;
+        font-size: 30px;
+        transform: rotateX(90deg);
+      }
+      #box11:hover {
+        font-family: "georgia";
+        font-size: 30px;
+        transform: rotateY(90deg);
+      }
+      #box12:hover {
+        font-family: gill sans;
+        font-size: 30px;
+        transform: rotateX(120deg);
+      }
+      #box13:hover {
+        font-family: "Corbel";
+        font-size: 30px;
+        transform: rotateY(130deg);
+      }
+      #box14:hover {
+        font-family: "Gigi";
+        font-size: 30px;
+        transform: rotate(270deg);
+      }
+      #box15:hover {
+        font-family: "Harrington";
+        font-size: 30px;
+        transform: skew(60deg);
+      }
+      #box16:hover {
+        font-family: "Juice ITC";
+        font-size: 30px;
+        transform: skewX(40deg);
+      }
+      #box17:hover {
+        font-family: "MS Gothic";
+        font-size: 30px;
+        transform: skewY(40deg);
+      }
+      #box18:hover {
+        font-family: "Rage";
+        font-size: 30px;
+        transform: skew(130deg);
+      }
+      #box19:hover {
+        font-family: "Playbill";
+        font-size: 30px;
+        transform: skewX(170deg);
+      }
+      #box20:hover {
+        font-family: "Pristina";
+        font-size: 30px;
+        transform: skewY(270deg);
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <h1 id="font">FONT BOXES</h1>
+    <div id="box1">Serif</div>
+    <div id="box2">Arial</div>
+    <div id="box3">Ga Maamli</div>
+    <div id="box4">Lucida</div>
+    <div id="box5">Cursive</div>
+    <div id="box6">Roman</div>
+    <div id="box7">Moderna</div>
+    <div id="box8">monospace</div>
+    <div id="box9">Fantasy</div>
+    <div id="box10">Cambria</div>
+    <div id="box11">Georgia</div>
+    <div id="box12">Gill sans</div>
+    <div id="box13">Corbel</div>
+    <div id="box14">Gigi</div>
+    <div id="box15">Harrington</div>
+    <div id="box16">Juice ITC</div>
+    <div id="box17">MS Gothic</div>
+    <div id="box18">Rage</div>
+    <div id="box19">Playbill</div>
+    <div id="box20">Pristina</div>
+  </body>
+</html>

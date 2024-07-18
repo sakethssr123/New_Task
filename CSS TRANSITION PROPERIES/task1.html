@@ -1,0 +1,232 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-size: 35px;
+        }
+        body{
+            margin-left: 40px;
+        }
+        div{
+            border: 2px solid black;
+            padding: 50px 60px 30px 50px;
+            width: 14vw;
+            height: 150px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 10px;
+            font-weight: 800;
+            text-align: center;
+            color: rgb(11, 11, 11);
+            background-color:royalblue;
+            border: 5px ridge rgb(61, 163, 163);
+      
+        }
+        #font{
+            text-align: center;
+            background-color: rgba(241, 16, 143, 0.838);
+            color: rgb(241, 248, 245);
+            font-size: 50px;
+            margin-left: -30px;
+        }
+        #box1{
+            box-shadow: 4px 4px 5px 3px rgb(36, 235, 185);
+            transition-delay: 2s;
+        }
+        #box2{
+            box-shadow: 4px 4px 1px 3px orange;
+            transition-duration: 10s;
+        }
+        #box3{
+            box-shadow: 4px 4px 1px 3px orangered;
+            transition-timing-function: ease-in-out;
+        }
+        #box4{
+            box-shadow: 4px 4px 1px 3px green;
+            transition: 5s ease-in 2s;
+        }
+        #box5{
+            box-shadow: 4px 4px 1px 3px yellow;
+            transition-delay: 2s;
+        }
+        #box6{
+            box-shadow: 4px 4px 1px   3px blueviolet;
+            transition-duration: 10s;
+        }
+        #box7{
+            box-shadow: 4px 4px 1px 3px skyblue;
+            transition-timing-function: ease-out;
+        }
+        #box8{
+            box-shadow: 4px 4px 1px 3px rgb(36, 231, 88);
+            transition: 5s ease-in 2s;
+        }
+        #box9{
+            box-shadow: 4px 4px 1px 3px goldenrod;
+            transition-delay: 2s;
+        }
+        #box10{
+            box-shadow: 4px 4px 1px 3px rgb(128, 0, 92);
+            transition-duration: 10s;
+        }
+        #box11{
+            box-shadow: 4px 4px 1px 3px gold;
+            transition-timing-function: ease-in;
+        }
+        #box12{
+            box-shadow: 4px 4px 1px 3px maroon;
+            transition: 5s ease-in 2s;
+        }
+        #box13{
+            box-shadow: 4px 4px 1px 3px crimson;
+            transition-delay: 2s;
+        }
+        #box14{
+            box-shadow: 4px 4px 1px 3px coral;
+            transition-duration: 10s;
+        }
+        #box15{
+            box-shadow: 4px 4px 1px 3px chocolate;
+            transition-timing-function: linear;
+        }
+        #box16{
+            box-shadow: 4px 4px 1px 3px cadetblue;
+            transition: 5s ease-in 2s;
+        }
+        #box17{
+            box-shadow: 4px 4px 1px 3px tan;
+            transition: 5s linear 1s;
+        }
+        #box18{
+            box-shadow: 4px 4px 1px 3px yellowgreen;
+            transition: 5s ease-out 2s;
+        }
+        #box19{
+            box-shadow: 4px 4px 1px 3px tomato;
+            transition: 5s ease-in 3s;
+        }
+        #box20{
+            box-shadow: 4px 4px 1px 3px teal;
+            transition: 5s ease-in-out 4s;
+        }
+        #box1:hover{
+                transform: translateX(120px);
+                font-size: 30px;
+
+        }
+        #box2:hover{
+            transform: translateY(120px);
+            font-size: 30px;
+        }
+        #box3:hover{
+            transform: translate(200px,200px);
+            font-size: 30px;
+        }
+        #box4:hover{
+            transform: translate(-100px);
+            font-size: 30px;
+        }
+        #box5:hover{
+            transform: scaleX(1.5);
+            font-size: 30px;
+        }
+        #box6:hover{
+            transform: scaleY(1.5);
+            font-size: 30px;
+        }
+        #box7:hover{
+            transform: scale(1.5);
+            font-size: 20px;
+        }
+        #box8:hover{
+            transform: scale(-0.5);
+            font-size: 30px;
+        }
+        #box9:hover{
+            transform: rotateX(110deg);
+            font-size: 30px;
+        }
+        #box10:hover{
+            transform: rotateY(110deg);
+            font-size: 30px;
+        }
+        #box11:hover{
+            transform: rotate(110deg);
+            font-size: 30px;
+        }
+        #box12:hover{
+            transform: rotate(-110deg);
+            font-size: 30px;
+        }
+        #box13:hover{
+            transform: skewX(20deg);
+            font-size: 30px;
+        }
+        #box14:hover{
+            transform: skewY(40deg);
+            font-size: 30px;
+        }
+        #box15:hover{
+            transform: skew(60deg);
+            font-size: 30px;
+        }
+        #box16:hover{
+            transform: skew(-60deg);
+            font-size: 30px;
+        }
+        #box17:hover{
+            transform: translate(100px,100px);
+            font-size: 30px;
+        }
+        #box18:hover{
+         transform: rotate(90deg);
+            font-size: 30px;
+        }
+        #box19:hover{
+        transform: scale(1.5);
+            font-size: 30px;
+        }
+        #box20:hover{
+          transform: skew(50deg);
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <h1 id="font">TRANSISTIONS & TRANSFORMS</h1>
+    <h2 id="font" style="background-color: black;">TRANSLATE</h2>
+  <div id="box1">translate X using delay</div>
+  <div id="box2">translate Y using duration</div>
+  <div id="box3">translate X&Y timing function</div>
+  <div id="box4">translate X(-) shorthand property</div>
+  <h2 id="font" style="background-color: black;">SCALE</h2>
+  <div id="box5">scale X <br>using delay</div>
+  <div id="box6">scale Y <br>using duration</div>
+  <div id="box7">scale XY timing function</div>
+  <div id="box8">scale XY(-)  shorthand property</div>
+  <h2 id="font" style="background-color: black;">ROTATE</h2>
+  <div id="box9">rotate X <br>using delay</div>
+  <div id="box10">rotate Y <br> using duration</div>
+  <div id="box11">rotate XY timing function</div>
+  <div id="box12">rotate XY(-)  shorthand property</div>
+  <h2 id="font" style="background-color: black;">SKEW</h2>
+  <div id="box13">skew X <br>using delay</div>
+  <div id="box14">skew Y <br>using duration</div>
+  <div id="box15">skew XY timing function</div>
+  <div id="box16">skew XY(-)  shorthand property</div>
+  <h2 id="font" style="background-color: black;">TRANSFORM ALL PROPERTIES</h2>
+  <div id="box17">trasnform</div>
+  <div id="box18">Rotate</div>
+  <div id="box19">scale</div>
+  <div id="box20">skew</div>
+</body>
+</html>
